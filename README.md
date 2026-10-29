@@ -1,19 +1,20 @@
 # Algorithm Visualizer
 
-A Python project that demonstrates sorting algorithms through visualization, testing, and performance comparison.
+A Python project that implements and visualizes Bubble Sort and Merge Sort, with automated testing and performance analysis.
 
 ## Project Overview
 
-This project explores two sorting algorithms: Bubble Sort and Merge Sort. It demonstrates how they sort numerical lists and compares their execution times on the same input data.
+This project demonstrates how two sorting algorithms work and compares their results and execution times.
 
 ## Features
 
 - Bubble Sort implementation.
 - Merge Sort implementation using recursion.
-- Step-by-step Bubble Sort visualization with Matplotlib.
-- Automated tests covering empty lists, single elements, duplicates, negative numbers, and sorted or reversed lists.
-- Execution-time comparison between the two algorithms.
-- Performance visualization using a bar chart.
+- Step-by-step Bubble Sort visualization using Matplotlib.
+- Automated tests for empty lists, single elements, duplicates, negative numbers, sorted lists, and reversed lists.
+- Comparison and swap counting for Bubble Sort.
+- Execution-time comparison using 1,000 randomly generated numbers.
+- Bar chart comparing algorithm execution times.
 
 ## Technologies Used
 
@@ -24,26 +25,26 @@ This project explores two sorting algorithms: Bubble Sort and Merge Sort. It dem
 
 ## Performance Experiment
 
-Both algorithms were tested using the same list of 1,000 randomly generated numbers.
+Both algorithms sorted the same list of 1,000 randomly generated numbers and produced matching results.
 
 | Algorithm | Input Size | Execution Time |
 |---|---:|---:|
 | Bubble Sort | 1,000 | 0.058052 seconds |
 | Merge Sort | 1,000 | 0.002352 seconds |
 
-In this experiment, both algorithms produced the same sorted result. Merge Sort ran faster on the tested input. Execution times may vary depending on the environment and input data.
+In this experiment, Merge Sort ran faster than Bubble Sort. Execution times may vary depending on the environment.
 
 ## How to Run
 
 1. Download `Algorithm_Visualizer.ipynb` from this repository.
-2. Open [Google Colab](https://colab.research.google.com/).
+2. Open Google Colab.
 3. Upload the notebook.
 4. Run the code cells in order.
 
 ## Learning Objectives
 
-This project explores algorithm implementation, recursion, automated testing, data visualization, and basic performance analysis.
+This project explores sorting algorithms, recursion, automated testing, data visualization, and basic performance analysis.
 
 ## Project Status
 
-Educational portfolio project. The results document experiments performed during development.
+Educational portfolio project documenting algorithm implementations and experiments.
